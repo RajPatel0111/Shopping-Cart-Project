@@ -1,0 +1,171 @@
+Script started on Fri 17 Jan 2020 02:56:47 AM EST
+]0;patel86@alpha: ~/Desktop[01;32mpatel86@alpha[00m:[01;34m~/Desktop[00m$ ls -l
+total 23
+drwx------ 1 patel86 temp 16384 Jan  1  1980 [0m[01;34mC[0m
+drwx------ 2 patel86 temp     7 Jan 15 19:28 [01;34mpackage1[0m
+-rw-r--r-- 1 patel86 temp   525 Jan 16 20:41 ShoopingCartass1.txt
+-rw-r--r-- 1 patel86 temp     0 Jan 17 02:56 Shoppingcart_Ass1_Scriptfile.txt
+-rw-r--r-- 1 patel86 temp  2875 Jan 17 00:33 Shopping_Cart_script_file.txt
+]0;patel86@alpha: ~/Desktop[01;32mpatel86@alpha[00m:[01;34m~/Desktop[00m$ javac package1/8.java[C[1P.java*.java[C[C[C
+]0;patel86@alpha: ~/Desktop[01;32mpatel86@alpha[00m:[01;34m~/Desktop[00m$ java package1.Shopping_Cart_a[KAPp[K[Kpp
+Book Display with Price Assending Order
+----------------------------------------
+id - 101
+price - 100
+author_name - Raj
+title - ASE
+ 
+id - 104
+price - 200
+author_name - Sunny
+title - SP
+ 
+id - 105
+price - 300
+author_name - Harsh
+title - TOS
+ 
+id - 102
+price - 500
+author_name - Sheshan
+title - ET
+ 
+id - 103
+price - 800
+author_name - Viany
+title - ACC
+ 
+GiftCard by Price Assending Order
+----------------------------------------
+id - 205
+price - 200
+description - extra 200 off
+colour - Yellow
+ 
+id - 204
+price - 300
+description - extra 300 off
+colour - Red
+ 
+id - 202
+price - 400
+description - extra 400 off
+colour - Pink
+ 
+id - 201
+price - 600
+description - extra 600 off
+colour - Green
+ 
+id - 203
+price - 700
+description - extra 700 off
+colour - Black
+ 
+Enter Customer's Name:
+Raj Patel
+Enter Today's Date:
+17 Jan 2020
+
+Customer Name: Raj Patel
+Today's Date: 17 Jan 2020
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+1
+Enter item ID: 
+102
+Item added
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+2
+Added Book Item
+----------------------------------------
+102: Sheshan: ET: 500
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+1
+Enter item ID: 
+204
+Item added
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+2
+Added Book Item
+----------------------------------------
+102: Sheshan: ET: 500
+Added GiftCard Item
+----------------------------------------
+204: Red: extra 300 off: 300
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+1
+Enter item ID: 
+105   201
+Item added
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+2
+Added Book Item
+----------------------------------------
+102: Sheshan: ET: 500
+Added GiftCard Item
+----------------------------------------
+204: Red: extra 300 off: 300
+Added GiftCard Item
+----------------------------------------
+201: Green: extra 600 off: 600
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+1
+Enter item ID: 
+105
+Item added
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+2
+Added Book Item
+----------------------------------------
+102: Sheshan: ET: 500
+Added Book Item
+----------------------------------------
+105: Harsh: TOS: 300
+Added GiftCard Item
+----------------------------------------
+204: Red: extra 300 off: 300
+Added GiftCard Item
+----------------------------------------
+201: Green: extra 600 off: 600
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+1
+Enter item ID: 
+105
+Due to limited stock You can't purchase the same Item again Sorry for that!!!!
+Menu:
+0 please Exit 
+1 add item in the cart 
+2 to show the cart 
+0
+Thank you for shopping
+]0;patel86@alpha: ~/Desktop[01;32mpatel86@alpha[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Fri 17 Jan 2020 02:58:36 AM EST
